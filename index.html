@@ -1,0 +1,51 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+<!--CHART JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+ <!--JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+<!--SKETCH.js -->
+    <script src="sketch.js"></script>
+
+
+    <script>
+    $(document).ready(function() {
+      console.log("loaded")
+      initialize();
+    })
+    </script>
+
+
+      <div id = "container">
+        <div id = "title">  </div>
+        <div class = "days">
+          <div class = "dayColumn">
+            <div class = "fasted">
+              <div class="description">HELLO </div>
+            <div id="chart-container"><canvas id="myChart" width="100%" height="100%"></canvas></div>
+            </div>
+            <div class = "fasted">
+              <div class="description">HELLO </div>
+            <div id="chart-container"><canvas id="my2Chart" width="100%" height="100%"></canvas></div>
+            </div>
+            <div class = "fasted">
+              <div class="description">HELLO </div>
+            <div id="chart-container"><canvas id="my3Chart" width="100%" height="100%"></canvas></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+<!-- <canvas id="myChart" width="400" height="400"></canvas> -->
+
+</body></html>

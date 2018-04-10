@@ -1,0 +1,204 @@
+{
+	"Description": "Bloodglucose measurements for midterm project",
+	"measurements": [{
+		"dailydata": {
+      "date" : "04-06-2018",
+      "sleep" : {
+        "goodnight am" : "2.30",
+        "goodmorning am" : "9.30"
+      },
+      "lunch" : {
+        "time pm" : "1.50",
+        "meal" : "Steak and eggs w. soda",
+        "ingredients" : "Beef, eggs, rucola, pesto, potatoes",
+        "servingsize" : "4"
+      },
+			"samplefasted": {
+				"time am": "10.05",
+				"measurement mg/dl": "100",
+				"comment": "no comment",
+				"stressLevel": "1"
+			},
+			"sampleprelunch": {
+				"time pm": "1.35",
+				"measurement mg/dl": "85",
+				"comment": "no comment",
+				"stressLevel": "1",
+				"lastmealtime am": "10.15"
+			},
+			"samplepostlunch": {
+				"time pm": "16.40",
+				"measurement mg/dl": "69",
+				"comment": "no comment",
+				"stressLevel": "1"
+			},
+			"samplenight": {
+				"time am": "3.05",
+				"measurement mg/dl": "100",
+				"comment": "no comment",
+				"stressLevel": "1",
+				"lastmealtime pm": "11.45 pm"
+			}
+		}
+  }, {
+		"dailydata": {
+      "date" : "04-07-2018",
+      "sleep" : {
+        "goodnight am" : "3.25",
+        "goodmorning am" : "11.00"
+      },
+      "lunch" : {
+        "time pm" : "4.15",
+        "meal" : "Omelette w. Hashbrowns and soda",
+        "ingredients" : "eggs, greenpepper, bacon, onion, potato, cheese",
+        "servingsize" : "4"
+      },
+			"samplefasted": {
+				"time am": "11.45",
+				"measurement mg/dl": "91",
+				"comment": "no comment",
+				"stressLevel": "2"
+			},
+			"sampleprelunch": {
+				"time pm": "3.35",
+				"measurement mg/dl": "74",
+				"comment": "no breakfast",
+				"stressLevel": "2",
+				"lastmealtime am": "N/A"
+			},
+			"samplepostlunch": {
+				"time pm": "7.00",
+				"measurement mg/dl": "90",
+				"comment": "no comment",
+				"stressLevel": "2"
+			},
+			"samplenight": {
+				"time am": "3.05",
+				"measurement mg/dl": "0",
+				"comment": "no comment",
+				"stressLevel": "2",
+				"lastmealtime pm": "11.50"
+			}
+		}
+  }, {
+		"dailydata": {
+      "date" : "04-06-2018",
+      "sleep" : {
+        "goodnight am" : "2.30",
+        "goodmorning am" : "9.30"
+      },
+      "lunch" : {
+        "time pm" : "1.50",
+        "meal" : "Steak and eggs",
+        "ingredients" : "Beef, eggs, rucola, pesto, potatoes",
+        "servingsize" : "4"
+      },
+			"samplefasted": {
+				"time am": "10.05",
+				"measurement mg/dl": "100",
+				"comment": "no comment",
+				"stressLevel": "1"
+			},
+			"sampleprelunch": {
+				"time pm": "1.35",
+				"measurement mg/dl": "85",
+				"comment": "no comment",
+				"stressLevel": "1",
+				"lastmealtime am": "10.15"
+			},
+			"samplepostlunch": {
+				"time pm": "16.40",
+				"measurement mg/dl": "69",
+				"comment": "no comment",
+				"stressLevel": "1"
+			},
+			"samplenight": {
+				"time am": "3.05",
+				"measurement mg/dl": "100",
+				"comment": "no comment",
+				"stressLevel": "1",
+				"lastmealtime pm": "11.45 pm"
+			}
+		}
+  }, {
+		"dailydata": {
+      "date" : "04-06-2018",
+      "sleep" : {
+        "goodnight am" : "2.30",
+        "goodmorning am" : "9.30"
+      },
+      "lunch" : {
+        "time pm" : "1.50",
+        "meal" : "Steak and eggs",
+        "ingredients" : "Beef, eggs, rucola, pesto, potatoes",
+        "servingsize" : "4"
+      },
+			"samplefasted": {
+				"time am": "10.05",
+				"measurement mg/dl": "100",
+				"comment": "no comment",
+				"stressLevel": "1"
+			},
+			"sampleprelunch": {
+				"time pm": "1.35",
+				"measurement mg/dl": "85",
+				"comment": "no comment",
+				"stressLevel": "1",
+				"lastmealtime am": "10.15"
+			},
+			"samplepostlunch": {
+				"time pm": "16.40",
+				"measurement mg/dl": "69",
+				"comment": "no comment",
+				"stressLevel": "1"
+			},
+			"samplenight": {
+				"time am": "3.05",
+				"measurement mg/dl": "100",
+				"comment": "no comment",
+				"stressLevel": "1",
+				"lastmealtime pm": "11.45 pm"
+			}
+		}
+  },{
+		"dailydata": {
+      "date" : "04-06-2018",
+      "sleep" : {
+        "goodnight am" : "2.30",
+        "goodmorning am" : "9.30"
+      },
+      "lunch" : {
+        "time pm" : "1.50",
+        "meal" : "Steak and eggs",
+        "ingredients" : "Beef, eggs, rucola, pesto, potatoes",
+        "servingsize" : "4"
+      },
+			"samplefasted": {
+				"time am": "10.05",
+				"measurement mg/dl": "100",
+				"comment": "no comment",
+				"stressLevel": "1"
+			},
+			"sampleprelunch": {
+				"time pm": "1.35",
+				"measurement mg/dl": "85",
+				"comment": "no comment",
+				"stressLevel": "1",
+				"lastmealtime am": "10.15"
+			},
+			"samplepostlunch": {
+				"time pm": "16.40",
+				"measurement mg/dl": "69",
+				"comment": "no comment",
+				"stressLevel": "1"
+			},
+			"samplenight": {
+				"time am": "3.05",
+				"measurement mg/dl": "100",
+				"comment": "no comment",
+				"stressLevel": "1",
+				"lastmealtime pm": "11.45 pm"
+			}
+		}
+  }
+]}
