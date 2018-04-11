@@ -40,7 +40,7 @@ html, body {
   flex-direction: column;
 }
 
-.fasted {
+.samplefasted {
   background-color: orange;
   box-sizing: border-box;
   border: 1px solid black;
@@ -49,12 +49,31 @@ html, body {
   margin-top: 30px;
 }
 
-.prelunch {
-  background-color: brown;
+.sampleprelunch {
+  background-color: orange;
   box-sizing: border-box;
   border: 1px solid black;
   height: 150px;
   width: 100%;
+  margin-top: 30px;
+}
+
+.samplepostlunch {
+  background-color: orange;
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 150px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.samplebedtime {
+  background-color: orange;
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 150px;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .myChart canvas {
@@ -65,4 +84,8 @@ html, body {
   background-color: purple;
   text-align: center;
   margin-bottom: 20px;
+}
+.sims {
+  width:1000px;
+  background-color: black;
 }

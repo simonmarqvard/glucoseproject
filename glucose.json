@@ -15,26 +15,26 @@
       },
 			"samplefasted": {
 				"time am": "10.05",
-				"measurement mg/dl": "100",
+				"measurement_mg/dl": "100",
 				"comment": "no comment",
 				"stressLevel": "1"
 			},
 			"sampleprelunch": {
 				"time pm": "1.35",
-				"measurement mg/dl": "85",
+				"measurement_mg/dl": "85",
 				"comment": "no comment",
 				"stressLevel": "1",
 				"lastmealtime am": "10.15"
 			},
 			"samplepostlunch": {
 				"time pm": "16.40",
-				"measurement mg/dl": "69",
+				"measurement_mg/dl": "69",
 				"comment": "no comment",
 				"stressLevel": "1"
 			},
 			"samplenight": {
 				"time am": "3.05",
-				"measurement mg/dl": "100",
+				"measurement_mg/dl": "100",
 				"comment": "no comment",
 				"stressLevel": "1",
 				"lastmealtime pm": "11.45 pm"
@@ -55,26 +55,26 @@
       },
 			"samplefasted": {
 				"time am": "11.45",
-				"measurement mg/dl": "91",
+				"measurement_mg/dl": "91",
 				"comment": "no comment",
 				"stressLevel": "2"
 			},
 			"sampleprelunch": {
 				"time pm": "3.35",
-				"measurement mg/dl": "74",
+				"measurement_mg/dl": "74",
 				"comment": "no breakfast",
 				"stressLevel": "2",
 				"lastmealtime am": "N/A"
 			},
 			"samplepostlunch": {
 				"time pm": "7.00",
-				"measurement mg/dl": "90",
+				"measurement_mg/dl": "90",
 				"comment": "no comment",
 				"stressLevel": "2"
 			},
 			"samplenight": {
 				"time am": "3.05",
-				"measurement mg/dl": "0",
+				"measurement_mg/dl": "0",
 				"comment": "no comment",
 				"stressLevel": "2",
 				"lastmealtime pm": "11.50"
@@ -95,26 +95,26 @@
       },
 			"samplefasted": {
 				"time am": "10.05",
-				"measurement mg/dl": "100",
+				"measurement_mg/dl": "100",
 				"comment": "no comment",
 				"stressLevel": "1"
 			},
 			"sampleprelunch": {
 				"time pm": "1.35",
-				"measurement mg/dl": "85",
+				"measurement_mg/dl": "85",
 				"comment": "no comment",
 				"stressLevel": "1",
 				"lastmealtime am": "10.15"
 			},
 			"samplepostlunch": {
 				"time pm": "16.40",
-				"measurement mg/dl": "69",
+				"measurement_mg/dl": "69",
 				"comment": "no comment",
 				"stressLevel": "1"
 			},
 			"samplenight": {
 				"time am": "3.05",
-				"measurement mg/dl": "100",
+				"measurement_mg/dl": "100",
 				"comment": "no comment",
 				"stressLevel": "1",
 				"lastmealtime pm": "11.45 pm"
@@ -135,26 +135,26 @@
       },
 			"samplefasted": {
 				"time am": "10.05",
-				"measurement mg/dl": "100",
+				"measurement_mg/dl": "100",
 				"comment": "no comment",
 				"stressLevel": "1"
 			},
 			"sampleprelunch": {
 				"time pm": "1.35",
-				"measurement mg/dl": "85",
+				"measurement_mg/dl": "85",
 				"comment": "no comment",
 				"stressLevel": "1",
 				"lastmealtime am": "10.15"
 			},
 			"samplepostlunch": {
 				"time pm": "16.40",
-				"measurement mg/dl": "69",
+				"measurement_mg/dl": "69",
 				"comment": "no comment",
 				"stressLevel": "1"
 			},
 			"samplenight": {
 				"time am": "3.05",
-				"measurement mg/dl": "100",
+				"measurement_mg/dl": "100",
 				"comment": "no comment",
 				"stressLevel": "1",
 				"lastmealtime pm": "11.45 pm"
@@ -175,26 +175,26 @@
       },
 			"samplefasted": {
 				"time am": "10.05",
-				"measurement mg/dl": "100",
+				"measurement_mg/dl": "100",
 				"comment": "no comment",
 				"stressLevel": "1"
 			},
 			"sampleprelunch": {
 				"time pm": "1.35",
-				"measurement mg/dl": "85",
+				"measurement_mg/dl": "85",
 				"comment": "no comment",
 				"stressLevel": "1",
 				"lastmealtime am": "10.15"
 			},
 			"samplepostlunch": {
 				"time pm": "16.40",
-				"measurement mg/dl": "69",
+				"measurement_mg/dl": "69",
 				"comment": "no comment",
 				"stressLevel": "1"
 			},
 			"samplenight": {
 				"time am": "3.05",
-				"measurement mg/dl": "100",
+				"measurement_mg/dl": "100",
 				"comment": "no comment",
 				"stressLevel": "1",
 				"lastmealtime pm": "11.45 pm"
