@@ -7,6 +7,7 @@ html, body {
   width: 120px;
   height: 120px;
   margin: 0 auto;
+  text-align: center;
 }
 
 #container {
@@ -84,8 +85,4 @@ html, body {
   background-color: purple;
   text-align: center;
   margin-bottom: 20px;
-}
-.sims {
-  width:1000px;
-  background-color: black;
 }

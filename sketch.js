@@ -16,14 +16,48 @@ function getData() {
     success: function(data) {
       window.data = data;
       console.log("data is served");
-      //  console.log(data);
       data.days.forEach(function(day) {
-        //console.log("YEAH");
         //  calculatePercentages();
+        console.log(day)
         addDayMeasurement(day);
       });
     }
   })
+}
+
+// function calculatePercentages(day) {
+//   day.measurements.forEach(function(measurement) {
+//     var percentage = measurement["measurement_mgdl"] / 100;
+//     console.log(percentage);
+//   });
+//   return percentage;
+// }
+
+
+var counter = 0;
+var counter2 = 0;
+
+function addDayMeasurement(day) {
+
+  //console.log(day);
+  var dayHtml = '<div class= dayColumn>';
+  // add specific timeslots
+  day.measurements.forEach(function(measurement) {
+    counter++
+    var timeslot =
+      '<div class =' + measurement["label"] + '>' +
+      '<div class="description">' + measurement["measurement_mgdl"] + '</div>' +
+      '<div id="chart-container">' + '<canvas id="myChart' + counter + '" + width="100%" height="100%">' +
+      '</canvas>' + '</div>' +
+      '</div>'
+    //concatenate string (push them together)
+    dayHtml += timeslot;
+  });
+
+  dayHtml += '</div>';
+
+  $('.days').append(dayHtml);
+  buildDoughnutChart(day);
 }
 
 function buildDoughnutChart(day) {
@@ -35,7 +69,7 @@ function buildDoughnutChart(day) {
         "Donald Trump",
       ],
       datasets: [{
-        data: [measurement["measurement_mgdl"]],
+        data: [measurement["measurement_mgdl"], 5],
         backgroundColor: [
           "#179ee0",
           "#fff",
@@ -47,6 +81,7 @@ function buildDoughnutChart(day) {
       }]
     };
 
+    counter2++
     // create chart options (this is optional)
     // see list of options:
     // http://www.chartjs.org/docs/latest/charts/doughnut.html
@@ -65,10 +100,8 @@ function buildDoughnutChart(day) {
         animateScale: false
       }
     }
-
     // first, get the context of the canvas where we're drawing the chart
-    var ctx = document.getElementById("myChart").getContext("2d");
-
+    var ctx = document.getElementById("myChart" + counter2).getContext("2d");
     // now, create the doughnut chart, passing in:
     // 1. the type (required)
     // 2. the data (required)
@@ -79,75 +112,5 @@ function buildDoughnutChart(day) {
       options: options
     });
   });
+  console.log(counter)
 }
-
-// function calculatePercentages(day) {
-//   day.measurements.forEach(function(measurement) {
-//     var percentage = measurement["measurement_mgdl"] / 100;
-//     console.log(percentage);
-//   });
-//   return percentage;
-// }
-
-
-
-function addDayMeasurement(day) {
-
-
-  //console.log(day);
-  var dayHtml = '<div class= dayColumn>';
-
-  // add specific timeslots
-  day.measurements.forEach(function(measurement) {
-    // console.log(measurement["measurement_mgdl"])
-    var timeslot =
-      '<div class =' + measurement["label"] + '>' +
-      '<div class="description">' + measurement["measurement_mgdl"] + '</div>' +
-      '<div id="chart-container">' + '<canvas id="myChart" width="100%" height="100%">' +
-      '</canvas>' + '</div>' +
-      '</div>'
-    //concatenate string (push them together)
-    dayHtml += timeslot;
-  });
-
-  dayHtml += '</div>';
-
-  $('.days').append(dayHtml);
-
-  buildDoughnutChart(day);
-
-}
-
-
-// function addTimeslot(currentday) {
-//   var timeslot =
-//     '<div class = "fasted">' +
-//     '<div class="description">' + 'HELLO' + '</div>' +
-//     '<div id="chart-container">' + '<canvas id="myChart" width="100%" height="100%">' +
-//     '</canvas>' + '</div>' +
-//     '</div>'
-//
-//   return $('.dayColumn').append(timeslot)
-//
-// }
-
-//
-// function setup() {
-//   noCanvas();
-// }
-//
-// function draw() {
-//   background(220);
-// }
-//
-//
-// function gotdata() {
-//   for (var i = 0; i < 3; i++) {
-//     //  console.log(data.measurements[i].dailydata.lunch.ingredients);
-//     ddata.push(data.measurements[i].dailydata.lunch.ingredients);
-//     console.log(ddata)
-//   }
-//
-//   $("#test").append(ddata)
-//
-// }

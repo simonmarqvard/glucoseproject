@@ -15,28 +15,28 @@
 			"measurements": [{
 					"label": "samplefasted",
 					"timeAm": "10.05",
-					"measurement_mgdl": "100",
+					"measurement_mgdl": "10",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "sampleprelunch",
 					"timePm": "1.35",
-					"measurement_mgdl": "85",
+					"measurement_mgdl": "30",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "samplepostlunch",
 					"timePm": "16.40",
-					"measurement_mgdl": "69",
+					"measurement_mgdl": "60",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "samplebedtime",
 					"timeAm": "3.05",
-					"measurement_mgdl": "100",
+					"measurement_mgdl": "90",
 					"comment": "no comment",
 					"stressLevel": "1"
 				}
@@ -57,28 +57,28 @@
 			"measurements": [{
 					"label": "samplefasted",
 					"timeAm": "10.05",
-					"measurement_mgdl": "100",
+					"measurement_mgdl": "90",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "sampleprelunch",
 					"timePm": "1.35",
-					"measurement_mgdl": "85",
+					"measurement_mgdl": "70",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "samplepostlunch",
 					"timePm": "16.40",
-					"measurement_mgdl": "69",
+					"measurement_mgdl": "50",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "samplebedtime",
 					"timeAm": "3.05",
-					"measurement_mgdl": "100",
+					"measurement_mgdl": "80",
 					"comment": "no comment",
 					"stressLevel": "1"
 				}
@@ -119,11 +119,52 @@
 					{
 						"label": "samplebedtime",
 						"timeAm": "3.05",
-						"measurement_mgdl": "100",
+						"measurement_mgdl": "120",
 						"comment": "no comment",
 						"stressLevel": "1"
 					}
 				]
-			}
+			}, 	{
+					"date": "04-06-2018",
+					"sleep": {
+						"goodnightAm": "2.30",
+						"goodmorningAm": "9.30"
+					},
+					"lunch": {
+						"timePm": "1.50",
+						"meal": "Steak and eggs w. soda",
+						"ingredients": "Beef, eggs, rucola, pesto, potatoes",
+						"servingsize": "4"
+					},
+					"measurements": [{
+							"label": "samplefasted",
+							"timeAm": "10.05",
+							"measurement_mgdl": "100",
+							"comment": "no comment",
+							"stressLevel": "1"
+						},
+						{
+							"label": "sampleprelunch",
+							"timePm": "1.35",
+							"measurement_mgdl": "85",
+							"comment": "no comment",
+							"stressLevel": "1"
+						},
+						{
+							"label": "samplepostlunch",
+							"timePm": "16.40",
+							"measurement_mgdl": "69",
+							"comment": "no comment",
+							"stressLevel": "1"
+						},
+						{
+							"label": "samplebedtime",
+							"timeAm": "3.05",
+							"measurement_mgdl": "120",
+							"comment": "no comment",
+							"stressLevel": "1"
+						}
+					]
+				}
 	]
 }
