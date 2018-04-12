@@ -1,7 +1,7 @@
 {
 	"Description": "Bloodglucose measurements for midterm project",
 	"days": [{
-			"date": "15-06-2018",
+			"date": "APR 7 - 2018",
 			"sleep": {
 				"goodnightAm": "2.30",
 				"goodmorningAm": "9.30"
@@ -35,15 +35,15 @@
 				},
 				{
 					"label": "samplebedtime",
-					"time": "15:05",
-					"measurement_mgdl": "100",
+					"time": "3:05",
+					"measurement_mgdl": "96",
 					"comment": "no comment",
 					"stressLevel": "1"
 				}
 			]
 		},
 		{
-			"date": "04-30-2018",
+			"date": "APR 8 - 2018",
 			"sleep": {
 				"goodnightAm": "2.30",
 				"goodmorningAm": "9.30"
@@ -56,7 +56,7 @@
 			},
 			"measurements": [{
 					"label": "samplefasted",
-					"time": "11:05",
+					"time": "13:05",
 					"measurement_mgdl": "91",
 					"comment": "no comment",
 					"stressLevel": "1"
@@ -70,21 +70,21 @@
 				},
 				{
 					"label": "samplepostlunch",
-					"time": "19:40",
-					"measurement_mgdl": "140",
+					"time": "19:00",
+					"measurement_mgdl": "90",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "samplebedtime",
-					"time": "13:05",
-					"measurement_mgdl": "100",
+					"time": "12:05",
+					"measurement_mgdl": "102",
 					"comment": "no comment",
 					"stressLevel": "1"
 				}
 			]
 		}, 	{
-				"date": "04-08-2018",
+				"date": "APR 9 - 2018",
 				"sleep": {
 					"goodnightAm": "2.30",
 					"goodmorningAm": "9.30"
@@ -97,115 +97,74 @@
 				},
 				"measurements": [{
 						"label": "samplefasted",
-						"time": "7:05",
-						"measurement_mgdl": "20",
+						"time": "11:55",
+						"measurement_mgdl": "95",
 						"comment": "no comment",
-						"stressLevel": "1"
+						"stressLevel": "2"
 					},
 					{
 						"label": "sampleprelunch",
-						"time": "13:35",
-						"measurement_mgdl": "85",
+						"time": "4:45",
+						"measurement_mgdl": "97",
 						"comment": "no comment",
 						"stressLevel": "1"
 					},
 					{
 						"label": "samplepostlunch",
-						"time": "16:40",
-						"measurement_mgdl": "69",
+						"time": "19:00",
+						"measurement_mgdl": "98",
 						"comment": "no comment",
 						"stressLevel": "1"
 					},
 					{
 						"label": "samplebedtime",
-						"time": "3:05",
-						"measurement_mgdl": "120",
+						"time": "3:45",
+						"measurement_mgdl": "90",
 						"comment": "no comment",
 						"stressLevel": "1"
 					}
 				]
 			}, 	{
-					"date": "04-06-2018",
+					"date": "APR 10 - 2018",
 					"sleep": {
 						"goodnightAm": "2.30",
 						"goodmorningAm": "9.30"
 					},
 					"lunch": {
-						"time": "12:50",
+						"time": "11:25",
 						"meal": "Steak and eggs w. soda",
 						"ingredients": "Beef, eggs, rucola, pesto, potatoes",
 						"servingsize": "4"
 					},
 					"measurements": [{
 							"label": "samplefasted",
-							"time": "10:05",
-							"measurement_mgdl": "100",
+							"time": "11:25",
+							"measurement_mgdl": "132",
 							"comment": "no comment",
 							"stressLevel": "1"
 						},
 						{
 							"label": "sampleprelunch",
-							"time": "14:35",
-							"measurement_mgdl": "85",
+							"time": "17:41",
+							"measurement_mgdl": "78",
 							"comment": "no comment",
 							"stressLevel": "1"
 						},
 						{
 							"label": "samplepostlunch",
 							"time": "16:40",
-							"measurement_mgdl": "140",
+							"measurement_mgdl": "97",
 							"comment": "no comment",
 							"stressLevel": "1"
 						},
 						{
 							"label": "samplebedtime",
 							"time": "3:05",
-							"measurement_mgdl": "120",
+							"measurement_mgdl": "102",
 							"comment": "no comment",
 							"stressLevel": "1"
 						}
 					]
-				}, 	{
-						"date": "04-06-2018",
-						"sleep": {
-							"goodnightAm": "2.30",
-							"goodmorningAm": "9.30"
-						},
-						"lunch": {
-							"time": "12:50",
-							"meal": "Steak and eggs w. soda",
-							"ingredients": "Beef, eggs, rucola, pesto, potatoes",
-							"servingsize": "4"
-						},
-						"measurements": [{
-								"label": "samplefasted",
-								"time": "10:05",
-								"measurement_mgdl": "100",
-								"comment": "no comment",
-								"stressLevel": "1"
-							},
-							{
-								"label": "sampleprelunch",
-								"time": "14:35",
-								"measurement_mgdl": "85",
-								"comment": "no comment",
-								"stressLevel": "1"
-							},
-							{
-								"label": "samplepostlunch",
-								"time": "16:40",
-								"measurement_mgdl": "140",
-								"comment": "no comment",
-								"stressLevel": "1"
-							},
-							{
-								"label": "samplebedtime",
-								"time": "3:05",
-								"measurement_mgdl": "120",
-								"comment": "no comment",
-								"stressLevel": "1"
-							}
-						]
-					}
+				}
 	]
 }

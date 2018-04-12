@@ -62,7 +62,7 @@ function addDayMeasurement(day) {
 // Build myDoughnutChart for each time each day
 //THIS VARIABLE COULD BE JUST HUNDRED BUT IN AN ARRAY I CAN ADJUST THE CHART VISUAL BY CHANGING PERCENTAGES
 var GlobalChartReferenceValues = [100, 100, 100, 100];
-var refvalues = [100, 110, 140, 110];
+var refvalues = [100, 120, 140, 110];
 var i = -1;
 
 function buildDoughnutChart(day) {
@@ -80,7 +80,7 @@ function buildDoughnutChart(day) {
       ],
       datasets: [{
           data: [measurement["measurement_mgdl"], GlobalChartReferenceValues[i]],
-          backgroundColor: ['#00AAA0', '#FCF4D9'],
+          backgroundColor: ['#00AAA9', '#FCF4D9'],
           borderColor: ['white', '#FCF4D9'],
 
           //  hoverBackgroundColor: [red, red],

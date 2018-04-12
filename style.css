@@ -14,20 +14,52 @@ html, body {
   background-color: white;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 64px 32px;
+    padding: 0px 32px;
 }
 
 #title {
   width: 100%;
   height: 50px;
   color: white;
+  font-size: 27px;
   text-align: center;
   padding-top: 20px;
   border-radius: 5px;
   margin-bottom: 10px;
- background-color: black;
-
+  background-color: black;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 6px;
 }
+
+#titleinfo {
+  width: 100%;
+  height: 50px;
+  color: #00AAA9;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: black;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 6px;
+}
+
+#titleinfo2 {
+  width: 100%;
+  height: 50px;
+  color: #FF7A5A;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: black;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 6px;
+}
+
+
 
 .days {
  /* background-color: red; */
@@ -50,12 +82,12 @@ html, body {
 
 .dayColumn:hover {
   border-radius: 5px;
-  background-color: white;
+  /* background-color: white; */
   color: black;
   height: 100%;
   width: 14%;
   box-sizing: border-box;
-  /* border: 1px solid black; */
+  border: 1px dotted black;
   margin-right: 25px;
   display: flex;
   flex-direction: column;
@@ -140,7 +172,7 @@ html, body {
 
 
 .refdescriptionSmall {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   /* background-color: purple; */
   /* text-align: center; */
   box-sizing: border-box;
@@ -148,6 +180,7 @@ html, body {
   height: 10px;
   width: 100%;
   margin-top: 0px;
+  padding-left: 33px;
   position: relative;
 }
 
@@ -185,15 +218,23 @@ html, body {
 
 .refdescription {
   padding-top: 50%;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   /* background-color: purple; */
   /* text-align: center; */
   margin-bottom: 20px;
+  padding-left: 33px;
 }
 
 .datebox {
-  background: orange;
-  height: 51px;
-  padding-top: 44px;
-  text-align: center;
+  background: lightslategrey;
+  font-family: 'Oxygen', sans-serif;
+  width: 72%;
+  border-radius: 5px;
+  height: 38px;
+  padding-top: 13px;
+  margin-top: 28px;
+  margin-bottom: 30px;
+  color: white;
+  padding-left: 35px;
+  padding-right: 8px;
 }

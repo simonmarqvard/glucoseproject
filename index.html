@@ -19,7 +19,7 @@
 
 <!-- FONT GOOGLE     -->
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
 
     <script>
     $(document).ready(function() {
@@ -30,20 +30,20 @@
 
 
       <div id = "container">
-        <div id = "title"> Glucose Tracker </div>
+        <div id = "title"> TRACKING BLOOD GLUCOSE <span id="titleinfo">measured</span><span id="titleinfo2">guidelines</span></div>
         <div class = "days">
           <div class = "refDayColumn">
             <div class = "refslots">
               <div class="refdescriptionSmall">Time </div>
-              <div class="refdescription">Fasted </div>
+              <div class="refdescription">Morning </div>
             <div id="chart-container"><canvas id="my0Chart" width="100%" height="100%"></canvas></div>
             </div>
             <div class = "refslots2">
-              <div class="refdescription">Before Lunch </div>
+              <div class="refdescription">Lunch: <br> before </div>
             <div id="chart-container"><canvas id="my1Chart" width="100%" height="100%"></canvas></div>
             </div>
             <div class = "refslots">
-              <div class="refdescription">2hours after Lunch </div>
+              <div class="refdescription">Lunch: <br> 2hours <br> after </div>
             <div id="chart-container"><canvas id="my2Chart" width="100%" height="100%"></canvas></div>
             </div>
             <div class = "refslots2">
