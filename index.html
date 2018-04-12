@@ -17,6 +17,9 @@
 <!--SKETCH.js -->
     <script src="sketch.js"></script>
 
+<!-- FONT GOOGLE     -->
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+
 
     <script>
     $(document).ready(function() {
@@ -29,21 +32,22 @@
       <div id = "container">
         <div id = "title"> Glucose Tracker </div>
         <div class = "days">
-          <div class = "dayColumn">
-            <div class = "samplefasted">
-              <div class="description">REFERENCE </div>
+          <div class = "refDayColumn">
+            <div class = "refslots">
+              <div class="refdescriptionSmall">Time </div>
+              <div class="refdescription">Fasted </div>
             <div id="chart-container"><canvas id="my0Chart" width="100%" height="100%"></canvas></div>
             </div>
-            <div class = "samplefasted">
-              <div class="description">REFERENCE </div>
+            <div class = "refslots2">
+              <div class="refdescription">Before Lunch </div>
             <div id="chart-container"><canvas id="my1Chart" width="100%" height="100%"></canvas></div>
             </div>
-            <div class = "samplefasted">
-              <div class="description">REFERENCE </div>
+            <div class = "refslots">
+              <div class="refdescription">2hours after Lunch </div>
             <div id="chart-container"><canvas id="my2Chart" width="100%" height="100%"></canvas></div>
             </div>
-            <div class = "samplefasted">
-              <div class="description">REFERENCE </div>
+            <div class = "refslots2">
+              <div class="refdescription">Night </div>
             <div id="chart-container"><canvas id="my3Chart" width="100%" height="100%"></canvas></div>
             </div>
         </div>
