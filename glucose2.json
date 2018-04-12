@@ -15,28 +15,28 @@
 			"measurements": [{
 					"label": "samplefasted",
 					"timeAm": "10.05",
-					"measurement_mgdl": "10",
+					"measurement_mgdl": "100",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "sampleprelunch",
 					"timePm": "1.35",
-					"measurement_mgdl": "30",
+					"measurement_mgdl": "85",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "samplepostlunch",
 					"timePm": "16.40",
-					"measurement_mgdl": "60",
+					"measurement_mgdl": "69",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "samplebedtime",
 					"timeAm": "3.05",
-					"measurement_mgdl": "90",
+					"measurement_mgdl": "100",
 					"comment": "no comment",
 					"stressLevel": "1"
 				}
@@ -57,28 +57,28 @@
 			"measurements": [{
 					"label": "samplefasted",
 					"timeAm": "10.05",
-					"measurement_mgdl": "90",
+					"measurement_mgdl": "91",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "sampleprelunch",
 					"timePm": "1.35",
-					"measurement_mgdl": "70",
+					"measurement_mgdl": "74",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "samplepostlunch",
 					"timePm": "16.40",
-					"measurement_mgdl": "50",
+					"measurement_mgdl": "90",
 					"comment": "no comment",
 					"stressLevel": "1"
 				},
 				{
 					"label": "samplebedtime",
 					"timeAm": "3.05",
-					"measurement_mgdl": "80",
+					"measurement_mgdl": "100",
 					"comment": "no comment",
 					"stressLevel": "1"
 				}
@@ -153,7 +153,7 @@
 						{
 							"label": "samplepostlunch",
 							"timePm": "16.40",
-							"measurement_mgdl": "69",
+							"measurement_mgdl": "140",
 							"comment": "no comment",
 							"stressLevel": "1"
 						},

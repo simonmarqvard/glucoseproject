@@ -3,6 +3,7 @@ var timeslots;
 
 function initialize() {
   getData();
+  referenceChart();
 }
 
 
@@ -25,13 +26,11 @@ function getData() {
   })
 }
 
-// function calculatePercentages(day) {
-//   day.measurements.forEach(function(measurement) {
-//     var percentage = measurement["measurement_mgdl"] / 100;
-//     console.log(percentage);
-//   });
-//   return percentage;
-// }
+function calculatePercentages(value) {
+  var percentage = value / 100;
+  console.log(percentage);
+  return percentage;
+}
 
 
 var counter = 0;
@@ -39,7 +38,6 @@ var counter2 = 0;
 
 function addDayMeasurement(day) {
 
-  //console.log(day);
   var dayHtml = '<div class= dayColumn>';
   // add specific timeslots
   day.measurements.forEach(function(measurement) {
@@ -60,16 +58,30 @@ function addDayMeasurement(day) {
   buildDoughnutChart(day);
 }
 
+var GlobalChartReferenceValues = [100, 80, 20, 80];
+var i = -1;
+// build myDoughnutChart for each time each day
+
+
 function buildDoughnutChart(day) {
 
   day.measurements.forEach(function(measurement) {
+    var adjusted = calculatePercentages(measurement["measurement_mgdl"])
+
+    i++
+
+    if (i > 3) {
+      i = 0;
+    }
+    console.log(i + "coun")
+
     var data = {
       labels: [
         "Hillary Clinton",
         "Donald Trump",
       ],
       datasets: [{
-        data: [measurement["measurement_mgdl"], 5],
+        data: [measurement["measurement_mgdl"], GlobalChartReferenceValues[i]],
         backgroundColor: [
           "#179ee0",
           "#fff",
@@ -82,9 +94,7 @@ function buildDoughnutChart(day) {
     };
 
     counter2++
-    // create chart options (this is optional)
-    // see list of options:
-    // http://www.chartjs.org/docs/latest/charts/doughnut.html
+
     var options = {
       legend: {
         display: false,
@@ -97,8 +107,9 @@ function buildDoughnutChart(day) {
         backgroundColor: '#222',
       },
       animation: {
-        animateScale: false
-      }
+        animateScale: false,
+        duration: 5000
+      },
     }
     // first, get the context of the canvas where we're drawing the chart
     var ctx = document.getElementById("myChart" + counter2).getContext("2d");
@@ -113,4 +124,64 @@ function buildDoughnutChart(day) {
     });
   });
   console.log(counter)
+}
+
+
+// ReferenceChart
+
+function referenceChart() {
+  //the real values for reference chart
+  var refvalues = [100, 110, 140, 110];
+
+  for (var i = 0; i <= 3; i++) {
+    var values = refvalues[i];
+    var chartReferenceValues = GlobalChartReferenceValues[i]
+
+    var data = {
+      labels: [
+        "Ref-Value",
+        "extra",
+      ],
+      datasets: [{
+        data: [values, chartReferenceValues],
+        backgroundColor: [
+          "red",
+          "white",
+        ],
+        hoverBackgroundColor: [
+          "#1594d2",
+          "#f0563a",
+        ]
+      }]
+    };
+
+
+    var options = {
+      legend: {
+        display: false,
+        position: 'bottom',
+        labels: {
+          fontColor: '#fff'
+        },
+      },
+      tooltips: {
+        backgroundColor: '#222',
+      },
+      animation: {
+        animateScale: false,
+        duration: 5000
+      },
+    }
+    // first, get the context of the canvas where we're drawing the chart
+    var xpos = document.getElementById("my" + [i] + "Chart").getContext("2d");
+    // now, create the doughnut chart, passing in:
+    // 1. the type (required)
+    // 2. the data (required)
+    // 3. chart options (optional)
+    myDoughnutChart = new Chart(xpos, {
+      type: 'doughnut',
+      data: data,
+      options: options
+    });
+  }
 }
